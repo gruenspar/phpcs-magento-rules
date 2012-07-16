@@ -27,12 +27,9 @@ You should see a load of lines looking like this:
     php    /usr/share/php/PHP/CodeSniffer/Sniff.php
     php    /usr/share/php/PHP/CodeSniffer/Tokens.php
 
-So the PHPCS directory in this case is `/usr/share/php/PHP/CodeSniffer/`, so we
-need to clone this repository into this directory:
-
-    /usr/share/php/PHP/CodeSniffer/Standards/Made
-
-This is done by running this command:
+So the PHPCS directory in this case is `/usr/share/php/PHP/CodeSniffer/`, which
+means we need to clone this repository into the `Standards/Made` subdirectory like
+so:
 
     git clone https://github.com/madedotcom/phpcs-magento-rules /usr/share/php/PHP/CodeSniffer/Standards/Made
 
