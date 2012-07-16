@@ -1,6 +1,6 @@
 # Made.com PHPCS Magento Rules
 
-A set of [http://pear.php.net/package/PHP_CodeSniffer](PHPCS) rules used by
+A set of [PHPCS](http://pear.php.net/package/PHP_CodeSniffer) rules used by
 made.com when hacking Magento.
 
 ## Pre-Requisites
