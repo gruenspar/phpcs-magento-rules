@@ -28,10 +28,13 @@ You should see a load of lines looking like this:
     php    /usr/share/php/PHP/CodeSniffer/Tokens.php
 
 So the PHPCS directory in this case is `/usr/share/php/PHP/CodeSniffer/`, so we
-need to [download](https://github.com/madedotcom/phpcs-magento-rules/zipball/master)
-or clone this repository into this directory:
+need to clone this repository into this directory:
 
     /usr/share/php/PHP/CodeSniffer/Standards/Made
+
+This is done by running this command:
+
+    git clone https://github.com/madedotcom/phpcs-magento-rules /usr/share/php/PHP/CodeSniffer/Standards/Made
 
 You can check the standard got installed by running `phpcs -i` which should show
 you something like this:
