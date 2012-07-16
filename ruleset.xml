@@ -51,21 +51,6 @@
     <rule ref="Squiz.Scope.StaticThisUsage"/>
     <rule ref="Squiz.Strings.EchoedStrings"/>
 
-    <!--
-    todo:
-    - Warn on Mage::log()
-    - Warn on include() and require()
-    - Enforce controller class names of frontend, adminhtml etc
-    - Error on classes which do not conform to Namespace_Module_Type (block, helper, etc)
-    - Error if double underscored methods are present
-    - Warn on bad array creation syntax, not sure if this is currently done or not
-    - Warn about using superglobals directly
-    - Error on disallowed functions such as echo(), print_r() etc
-    - Warn on double blank lines
-    - Warn on no blank line at EOF
-    - Warn when Mage::getModel(), getResourceModel(), getSingleton() and helper() are not on their own in methods
-    -->
-
     <!-- Lines can be 80 chars long, show errors at 120 chars -->
     <rule ref="Generic.Files.LineLength">
         <properties>
