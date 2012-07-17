@@ -51,6 +51,10 @@
     <rule ref="Squiz.Scope.StaticThisUsage"/>
     <rule ref="Squiz.Strings.EchoedStrings"/>
 
+    <!-- We even make our own! -->
+
+    <rule ref="Made.Magento.Log"/>
+
     <!-- Lines can be 80 chars long, show errors at 120 chars -->
     <rule ref="Generic.Files.LineLength">
         <properties>
