@@ -45,7 +45,11 @@
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
     <rule ref="Squiz.Operators.IncrementDecrementUsage"/>
     <rule ref="Squiz.Operators.ValidLogicalOperators"/>
-    <rule ref="Squiz.PHP.CommentedOutCode"/>
+    <rule ref="Squiz.PHP.CommentedOutCode">
+	<properties>
+		<property name="maxPercentage" value="80"/>
+	</properties>
+    </rule>
     <rule ref="Squiz.Scope.MemberVarScope"/>
     <rule ref="Squiz.Scope.MethodScope"/>
     <rule ref="Squiz.Scope.StaticThisUsage"/>
@@ -62,6 +66,7 @@
             <property name="absoluteLineLimit" value="150"/>
         </properties>
     </rule>
+
 
     <!-- Use Unix newlines -->
     <rule ref="Generic.Files.LineEndings">
