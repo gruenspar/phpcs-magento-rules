@@ -60,6 +60,7 @@
     <!-- We even make our own! -->
 
     <rule ref="Made.Magento.Log"/>
+    <rule ref="Made.Gruenspar.VariableNameLength"/>
 
     <!-- Lines can be 120 chars long, show errors at 150 chars -->
     <rule ref="Generic.Files.LineLength">
